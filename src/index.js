@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import SampleOne from './Sample';
 import reportWebVitals from './reportWebVitals';
-import sample from './sampletable';
+// import Header from './ManiRourter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <SampleOne/>
+    
   </React.StrictMode>
 );
 
